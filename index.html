@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Go IT. Д\З №2</title>
   </head>
@@ -47,12 +48,14 @@
         <!-- section 1 -->
         <section class="first-screen">
           <div class="container">
-            <h1 class="first-screen__title">
-              Эффективные решения для вашего бизнеса
-            </h1>
-            <button type="button" class="first-screen__btn btn btn-active">
-              Заказать услугу
-            </button>
+            <div class="wrapper">
+              <h1 class="first-screen__title">
+                Эффективные решения для вашего бизнеса
+              </h1>
+              <button type="button" class="first-screen__btn btn btn-active">
+                Заказать услугу
+              </button>
+            </div>
           </div>
         </section>
         <!-- /section 1 -->
@@ -109,7 +112,7 @@
                   height="294"
                 />
               </li>
-              <li>
+              <li class="work__item">
                 <img
                   class="work__img"
                   src="./img/mobile.jpg"
@@ -118,7 +121,7 @@
                   height="294"
                 />
               </li>
-              <li>
+              <li class="work__item">
                 <img
                   class="work__img"
                   src="./img/design.jpg"

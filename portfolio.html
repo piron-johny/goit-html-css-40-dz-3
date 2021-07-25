@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Go IT. Д\З №2</title>
+    <title>Go IT. Д\З №3</title>
   </head>
   <body>
     <!-- header -->
@@ -43,93 +43,111 @@
 
     <!-- main -->
     <main class="content">
-      <div class="container">
         <section class="section-portfolio">
-          <h1 class="tittle">Портфолио</h1>
-          <ul class="filter-list list">
-            <li class="filter-list__item">
-              <button type="button" class="filter-list__btn btn btn-active">Все</button>
-            </li>
-            <li class="filter-list__item">
-              <button type="button" class="filter-list__btn btn">Веб-сайты</button>
-            </li>
-            <li class="filter-list__item">
-              <button type="button" class="filter-list__btn btn">Приложения</button>
-            </li>
-            <li class="filter-list__item">
-              <button type="button" class="filter-list__btn btn">Дизайн</button>
-            </li>
-            <li class="filter-list__item">
-              <button type="button" class="filter-list__btn btn">Маркетинг</button>
-            </li>
-          </ul>
-          <ul class="content-lists list">
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img.jpg" alt="Отктырый ноутбук" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Технокряк</h2>
-                <p class="content-list__text">Веб-сайт</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(1).jpg" alt="Постер с баскетколистами" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Постер New Orlean vs Golden Star</h2>
-                <p class="content-list__text">Дизайн</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(2).jpg" alt="Эмблема ресторана" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Ресторан Seafood</h2>
-                <p class="content-list__text">Приложение</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(3).jpg" alt="Наушники" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Проект Prime</h2>
-                <p class="content-list__text">Маркетинг</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(4).jpg" alt="Две коробочки" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Проект Boxes</h2>
-                <p class="content-list__text">Приложение</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(5).jpg" alt="Монитор Компьютера" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Inspiration has no Borders</h2>
-                <p class="content-list__text">Веб-сайт</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(6).jpg" alt="Журнал" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Издание Limited Edition</h2>
-                <p class="content-list__text">Дизайн</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(7).jpg" alt="Бирка проетка" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Проект LAB</h2>
-                <p class="content-list__text">Маркетинг</p>
-              </a>
-            </li>
-            <li class="content-list">
-              <a href="#" class="link">
-                <img src="./img/portfolio/img(8).jpg" alt="Ноутбук на столе" class="content-list__img" width="370">
-                <h2 class="content-list__tittle">Growing Business</h2>
-                <p class="content-list__text">Приложение</p>
-              </a>
-            </li>
-          </ul>
+          <div class="container">
+            <h1 class="tittle">Портфолио</h1>
+            <ul class="filter-list list">
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn btn btn-active">Все</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn btn">Веб-сайты</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn btn">Приложения</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn btn">Дизайн</button>
+              </li>
+              <li class="filter-list__item">
+                <button type="button" class="filter-list__btn btn">Маркетинг</button>
+              </li>
+            </ul>
+            <ul class="content-list list">
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img.jpg" alt="Отктырый ноутбук" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Технокряк</h2>
+                    <p class="item__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(1).jpg" alt="Постер с баскетколистами" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Постер New Orlean vs Golden Star</h2>
+                    <p class="item__text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(2).jpg" alt="Эмблема ресторана" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Ресторан Seafood</h2>
+                    <p class="item__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(3).jpg" alt="Наушники" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Проект Prime</h2>
+                    <p class="item__text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(4).jpg" alt="Две коробочки" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Проект Boxes</h2>
+                    <p class="item__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(5).jpg" alt="Монитор Компьютера" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Inspiration has no Borders</h2>
+                    <p class="item__text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(6).jpg" alt="Журнал" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Издание Limited Edition</h2>
+                    <p class="item__text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(7).jpg" alt="Бирка проетка" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Проект LAB</h2>
+                    <p class="item__text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link">
+                  <img src="./img/portfolio/img(8).jpg" alt="Ноутбук на столе" class="item__img" width="370">
+                  <div class="item__box">
+                    <h2 class="item__tittle">Growing Business</h2>
+                    <p class="item__text">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
-      </div>
     </main>
     <!-- /main -->
 
