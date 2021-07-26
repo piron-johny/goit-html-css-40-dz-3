@@ -265,15 +265,18 @@ body {
 
   margin-bottom: 50px;
 }
+.filter-list__item:not(:last-child) {
+  margin-right: 8px;
+}
 .filter-list__btn {
   color: var(--primaryColor);
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
 
   padding: 6px 22px;
-  margin-right: 8px;
 }
 .filter-list__btn:hover {
   background-color: var(--activeColor);
