@@ -329,6 +329,7 @@ body {
   color: var(--colorText);
   display: block;
   margin-bottom: 20px;
+  padding: 0;
 }
 .address {
   font-style: normal;
